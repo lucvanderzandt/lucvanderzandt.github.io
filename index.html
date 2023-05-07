@@ -1,10 +1,77 @@
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Luc van der Zandt</title>
-    </head>
-    <body>
-        Nothing to see here.
-    </body>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luc van der Zandt</title>
+
+    <!-- Google fonts: Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+
+    <!-- Icons: FontAwesome -->
+    <script src="https://kit.fontawesome.com/cdfa2ccea4.js" crossorigin="anonymous"></script>
+
+    <!-- Styling: Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-white dark:bg-black dark:text-white text-black">
+    <div class="grid grid-cols-1 md:grid-cols-2">
+        <div class="max-w-md px-2 mx-auto my-10">
+            <!-- Photo -->
+            <img class="mx-auto mb-2 w-32 h-32 rounded-full border-2 border-current" src="photo.jpeg" />
+
+            <!-- Name -->
+            <h1 class="text-2xl mx-auto w-fit text-center">Luc van der Zandt</h1>
+
+            <!-- Introduction -->
+            <div class="text-center text-sm">
+                Software engineer. Aspiring scientist.
+            </div>
+
+            <!-- Skills and interests (grid)-->
+            <div class="text-sm px-4 my-10 max-w-prose">
+                <div class="grid grid-cols-[min-content_auto] gap-4">
+                    <div><b>Interests:</b></div>
+                    <div>human computer interaction, educational technology, workplace learning, learning analytics,
+                        ethnography</div>
+
+                    <div><b>Skills:</b></div>
+                    <div>(academic) writing, creative and critical thinking, software engineering, data analysis</div>
+                </div>
+            </div>
+
+            <!-- Contact information -->
+            <div class="w-fit mx-auto my-3">
+                <a href="https://www.linkedin.com/in/lucvanderzandt/" target="_blank"><i
+                        class="fa-xl fa-brands fa-linkedin mr-2"></i></a>
+                <a href="https://www.researchgate.net/profile/Luc-Van-Der-Zandt" target="_blank"><i
+                        class="fa-xl fa-brands fa-researchgate mr-2"></i></a>
+                <a href="https://hci.social/lucvanderzandt" target="_blank"><i
+                        class="fa-xl fa-brands fa-mastodon mr-2"></i></a>
+                <a href="https://twitter.com/lucvanderzandt" target="_blank"><i
+                        class="fa-xl fa-brands fa-twitter mr-2"></i></a>
+                <a href="tel:+3161792626"><i class="fa-solid fa-xl fa-phone"></i></a>
+            </div>
+
+            <!-- Contact me button, preferable contact method -->
+            <a href="mailto:info@lucvanderzandt.nl" target="_blank" class="w-fit block m-auto">
+                <div class="w-fit px-5 py-2 border-2 border-current">Contact me</div>
+            </a>
+        </div>
+        <!-- Work experience and study -->
+        <div class="max-w-md px-2 mx-auto my-10">
+            <!-- Title -->
+            <h1 class="text-2xl mx-auto w-fit text-center">Experience</h1>
+
+            <!-- Experience (to do)-->
+            <div class="text-sm px-4 my-10 max-w-prose">
+                
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>
